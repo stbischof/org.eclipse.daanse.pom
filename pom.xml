@@ -16,14 +16,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.eclipse.daanse</groupId>
   <artifactId>org.eclipse.daanse.pom.parent</artifactId>
-  <version>${revision}</version>
+  <version>0.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>daanse project - parent pom</name>
   <description>This pom is the base/parent-pom for all other maven-projects of the daanse project</description>
 
   <properties>
-    <revision>0.0.2-SNAPSHOT</revision>
 
     <project.build.outputTimestamp>1980-02-01T00:00:00Z</project.build.outputTimestamp>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
