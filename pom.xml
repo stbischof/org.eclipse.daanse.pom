@@ -16,7 +16,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.eclipse.daanse</groupId>
   <artifactId>org.eclipse.daanse.pom.parent</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>daanse project - parent pom</name>
