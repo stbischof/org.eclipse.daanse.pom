@@ -16,7 +16,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.eclipse.daanse</groupId>
   <artifactId>org.eclipse.daanse.pom.parent</artifactId>
-  <version>0.0.3</version>
+  <version>0.0.3-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>daanse project - parent pom</name>
@@ -98,11 +98,6 @@
   </issueManagement>
 
   <distributionManagement>
-    <repository>
-      <id>ossrh</id>
-      <name>Maven Repo</name>
-      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-    </repository>
     <snapshotRepository>
       <id>ossrh</id>
       <url>https://central.sonatype.com/repository/maven-snapshots</url>
@@ -933,7 +928,6 @@
             <extensions>true</extensions>
             <configuration>
               <publishingServerId>central</publishingServerId>
-              <autoPublish>true</autoPublish>
             </configuration>
           </plugin>
         </plugins>
