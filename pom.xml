@@ -16,7 +16,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.eclipse.daanse</groupId>
   <artifactId>org.eclipse.daanse.pom.parent</artifactId>
-  <version>0.0.3</version>
+  <version>0.0.3-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>daanse project - parent pom</name>
@@ -96,6 +96,13 @@
     <system>GitHub Issues</system>
     <url>https://github.com/${repo.part}/issues</url>
   </issueManagement>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://central.sonatype.com/repository/maven-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <repositories>
     <repository>
