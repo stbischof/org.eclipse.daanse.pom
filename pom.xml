@@ -983,7 +983,7 @@
       <id>deploy</id>
       <distributionManagement>
         <snapshotRepository>
-          <id>central</id>
+          <id>ossrh</id>
           <url>https://central.sonatype.com/repository/maven-snapshots</url>
         </snapshotRepository>
       </distributionManagement>
