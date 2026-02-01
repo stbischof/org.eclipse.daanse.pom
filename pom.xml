@@ -16,7 +16,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.eclipse.daanse</groupId>
   <artifactId>org.eclipse.daanse.pom.parent</artifactId>
-  <version>0.0.6</version>
+  <version>0.0.7</version>
   <packaging>pom</packaging>
 
   <name>Eclipse Daanse Parent POM</name>
@@ -144,12 +144,15 @@
 
   <pluginRepositories>
     <pluginRepository>
-      <id>bnd-snapshots</id>
-      <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
-      <layout>default</layout>
+      <id>ossrhp</id>
+      <name>Sonatype Nexus Snapshots Plugin</name>
+      <url>https://central.sonatype.com/repository/maven-snapshots</url>
       <releases>
         <enabled>false</enabled>
       </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
     </pluginRepository>
   </pluginRepositories>
 
